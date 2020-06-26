@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 14px;
+    font-family: "OpenSans-Bold.tff", sans-serif;
+} 
+header {
+    background-image: url(texture-header.jpg);
+    height: 150px;
+    width: 100px;
+    text-align: center;
+}
+html {
+    font-family: "OpenSans-Bold.tff", serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+@font-face {
+    font-family: "OpenSans-Bold.tff";
+    src: url("OpenSans-Bold.ttf") format("woff2")
+}  
+#divbody {
+    max-width: 810px;
+    text-align: center;
+    margin: 0 auto;
+}
+nav {
+    display: inline-block;
+    background-color: #2e2f30;
+    padding-right: 50px;
+    margin: 0px;
+    width: 100%;
+    word-spacing: 10px;
+    text-align: right;
+}
+@font-face {
+    font-family: "nasalization-rg.ttf";
+    src: url("nasalization-rg.ttf");
+}
+h1 {
+    font-size: 40px;
+    color: #27d1ff;
+    text-align: center;
+    font-family: "nasalization-rg.tff", sans-serif;
+}
+link {
+    color: white;
+}
+.link:hover {
+    color: #17c1ff;
+    font-style: bold;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+}
+h2 {
+    text-decoration: #e6e6e6;
+    text-shadow: 0.1em 0.1em 0.2em #e6e6e6;
+    text-shadow: 1px 1px;
+    text-align: center;
+}
+p {
+    width: 750px;
+    padding: 10px;
+    text-align: center;  
+    margin: 0 auto; 
+}
+#img1 {
+    float: left;
+    margin: auto;
+}
+#img2 {
+    float: right;
+    margin: auto;
+}
+tr {
+    width: 480px;
+    height: 100px;
+    overflow-y: auto;
+    text-align: center;
+}
+input {
+    width: 300px;
+    padding: 8px;
+    border-color: #e6e6e6;
+    border-width: 2px;
+}
+form {
+    text-align: center;
+    display: inline-block;
+}
+#divbody {
+    text-align: center;
+    max-width: 810px;
+    margin: 0 auto;
+}
+#div2 {
+    text-align: left;
+}
+#div3 {
+    text-align: right;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+    background-color: skyblue;
+}
+table {
+    text-align: center;
+    max-width: 810px;
+    margin: 0 auto;
+}
+h2 {
+    color: black;
+    background-color: silver;
+}
